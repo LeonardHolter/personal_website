@@ -20,8 +20,8 @@ function AboutMe() {
   return (
     <ul>
       <li>A physics and finance student at Columbia University during day</li>
-      <li>A builder and visionary during night</li>
-      <li>Currently working on a marketplace for AI agetns</li>
+      <li>Builder and a visionary during night</li>
+      <li>Currently working on a marketplace for AI agents</li>
       <li>Interested in aerospace and drones</li>
     </ul>
   );
