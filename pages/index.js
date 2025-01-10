@@ -19,9 +19,14 @@ function Title() {
 function AboutMe() {
   return (
     <ul>
-      <li>A physics and finance student at Columbia University during day</li>
+      <li>
+        A physics and computer science student at Columbia University during day
+      </li>
       <li>Builder and a visionary during night</li>
-      <li>Currently working on a marketplace for AI agents</li>
+      <li>
+        Currently working on a{" "}
+        <a href="https://www.marketofagents.com/"> marketplace for AI agents</a>
+      </li>
       <li>Interested in aerospace and drones</li>
     </ul>
   );
