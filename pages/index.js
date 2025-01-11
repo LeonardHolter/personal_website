@@ -4,10 +4,15 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <div>
-      <Title></Title>
-      <AboutMe></AboutMe>
-      <Links></Links>
-      <Blog></Blog>
+      {/* Add Head component here */}
+      <Head>
+        <title>Leonard Holter</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <Title />
+      <AboutMe />
+      <Links />
+      <Blog />
     </div>
   );
 }
@@ -25,7 +30,7 @@ function AboutMe() {
       <li>Builder and a visionary during night</li>
       <li>
         Currently working on a{" "}
-        <a href="https://www.marketofagents.com/"> marketplace for AI agents</a>
+        <a href="https://www.marketofagents.com/">marketplace for AI agents</a>
       </li>
       <li>Interested in aerospace and drones</li>
     </ul>
