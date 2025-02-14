@@ -24,15 +24,9 @@ function Title() {
 function AboutMe() {
   return (
     <ul>
-      <li>
-        A physics and computer science student at Columbia University during day
-      </li>
+      <li>A Finance and Physics student at Columbia University during day</li>
       <li>Builder and a visionary during night</li>
-      <li>
-        Currently working on a{" "}
-        <a href="https://www.marketofagents.com/">marketplace for AI agents</a>
-      </li>
-      <li>Interested in aerospace and drones</li>
+      <li>Interested in aerospace, drones and real estate</li>
     </ul>
   );
 }
@@ -46,14 +40,6 @@ function Links() {
       </li>
       <li>
         <a href="mailto:leonard.holter@columbia.edu">Email</a>
-      </li>
-      <li>
-        <a
-          href="/Leonard_Holter_Resume.pdf"
-          download="Leonard_Holter_Resume.pdf"
-        >
-          Resume
-        </a>
       </li>
     </ul>
   );
