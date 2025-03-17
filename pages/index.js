@@ -1,5 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
       <Title />
       <AboutMe />
       <Links />
-      <Blog />
+      <Image src="/ung.png" alt="Image of me" width={217} height={217}></Image>
     </div>
   );
 }
@@ -26,7 +27,7 @@ function AboutMe() {
     <ul>
       <li>A Finance and Physics student at Columbia University during day</li>
       <li>Builder and a visionary during night</li>
-      <li>Interested in aerospace, drones and real estate</li>
+      <li>Interested in aerospace, drones and defence</li>
     </ul>
   );
 }
@@ -40,17 +41,6 @@ function Links() {
       </li>
       <li>
         <a href="mailto:leonard.holter@columbia.edu">Email</a>
-      </li>
-    </ul>
-  );
-}
-
-function Blog() {
-  return (
-    <ul>
-      <h2>Blog</h2>
-      <li>
-        <a href="">Coming Soon</a>
       </li>
     </ul>
   );
