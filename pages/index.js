@@ -27,7 +27,7 @@ function AboutMe() {
     <ul>
       <li>A Finance and Physics student at Columbia University during day</li>
       <li>Builder and a visionary during night</li>
-      <li>Interested in aerospace, drones and defence</li>
+      <li>Interested in asteroid mining, drones and aerospace in general</li>
     </ul>
   );
 }
